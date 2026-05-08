@@ -1,33 +1,26 @@
-# 工作流名称（在 GitHub Actions 页面显示）
 name: 每日规则更新
 
-# 触发条件
 on:
-  # 定时触发：每天 UTC 0 点（北京时间 8 点）
   schedule:
     - cron: "0 0 * * *"
-  # 手动触发：可在网页上点击“运行工作流”按钮
   workflow_dispatch:
 
-# 要执行的任务
 jobs:
-  # 任务名称：更新规则
-  更新规则:
-    # 运行环境：最新的 Ubuntu
+  update-rules:                     # Job ID 必须用英文
+    name: 更新规则                   # 显示名称支持中文（可选）
     runs-on: ubuntu-latest
 
-    # 任务中的具体步骤
     steps:
       - name: 拉取代码
         uses: actions/checkout@v4
 
-      - name: 安装 Node.js 环境
+      - name: 安装 Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "20"
 
-      - name: 安装项目依赖
-        run: npm ci   # npm ci 比 npm install 更适合自动化环境
+      - name: 安装依赖
+        run: npm ci
 
       - name: 执行下载和合并去重脚本
         run: node init.js
@@ -36,9 +29,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # 根据你的实际输出目录调整 add 的路径
           git add rule/
-          git add file/      # 如果不需要提交下载的原始文件，可删除本行
-          # 仅在确实有变更时才提交
+          git add file/      # 如不需要可删除
           git diff --staged --quiet || git commit -m "chore: 自动更新规则文件 $(date +'%Y-%m-%d %H:%M:%S')"
           git push
