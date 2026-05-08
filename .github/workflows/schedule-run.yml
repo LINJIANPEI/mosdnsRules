@@ -1,0 +1,30 @@
+# 工作流的名字，你可以在 GitHub 上看到它
+name: Daily Rule Update
+
+# 触发条件：这里定义了两种触发方式
+on:
+  # 1. 定时触发：用 cron 语法来设定执行时间
+  # 下面的例子是每天 UTC 时间 0 点（北京时间早上 8 点）执行
+  schedule:
+    - cron: "0 0 * * *"
+  # 2. 手动触发：在 GitHub 网页上可以随时点击“Run workflow”按钮，非常方便调试
+  workflow_dispatch:
+
+# 定义这个工作流里要干的具体“活儿”
+jobs:
+  # “活儿”的名字
+  更新规则:
+    # 在最新的 Ubuntu 服务器环境里干活
+    runs-on: ubuntu-latest
+    # 具体要执行的每一步
+    steps:
+      - name: 拉取代码
+        uses: actions/checkout@v4
+      - name: 安装 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: 安装依赖
+        run: npm install
+      - name: 执行脚本
+        run: node init.js
