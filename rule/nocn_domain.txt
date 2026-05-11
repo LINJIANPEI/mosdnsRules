@@ -918,6 +918,7 @@ darpa.mil
 darrenliuwei.com
 dashlane.com
 data-vocabulary.org
+data18.com
 daum.net
 david-kilgour.com
 dawangidc.com
@@ -1029,6 +1030,7 @@ dropboxapi.com
 dropboxusercontent.com
 dscn.info
 dstk.dk
+dt18.com
 dtiblog.com
 dtic.mil
 dubox.com
@@ -12369,6 +12371,7 @@ gettyimages.no
 gettyimages.pt
 gettyimages.se
 getws1.com
+getwsj.com
 getwsone.com
 getzola.org
 gfacecbook.com
@@ -14848,6 +14851,7 @@ jav.dog
 javdove8.xyz
 javdove.com
 javextreme.net
+javfc2.xyz
 javfilms.com
 javforme.ninja
 javfree.la
