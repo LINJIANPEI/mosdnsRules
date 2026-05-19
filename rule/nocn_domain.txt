@@ -3135,6 +3135,7 @@ shutterstock.com
 shwchurch.org
 shwchurch3.com
 sidelinesnews.com
+sider.ai
 signal.org
 silvergatebank.com
 simbolostwitter.com
@@ -4196,6 +4197,7 @@ zh.ecdm.wikia.com
 zh.pokerstrategy.com
 zh.wikiquote.org
 zhangtianliang.com
+zhangzhehan.net
 zhanlve.org
 zhao.1984.city
 zhengjian.org
@@ -4589,6 +4591,7 @@ zzcloud.me
 55dndn.com
 567321.online
 568xe.com
+573.jp
 58avgo.com
 592r.com
 59mvmv.com
@@ -15355,6 +15358,7 @@ keytransparency.com
 keytransparency.foo
 keytransparency.org
 kfs.io
+kgisystems.com
 kgslb.com
 khanacademy.org
 khotruyentranhx.com
@@ -15436,6 +15440,7 @@ kissjav.com
 kissjav.li
 kitakyushubank.co.jp
 kiwibrowser.com
+kiwi.jp
 kiyobank.co.jp
 kkbox.com.tw
 kkddsex7.com
@@ -15463,6 +15468,19 @@ kompoz2.com
 kompoz.com
 konachan.net
 konachan.wjcodes.com
+konami.co.jp
+konami.com
+konamicrossmedia.com
+konamigaming.com
+konamigaming.net
+konamigaming.online
+konami-igaming.online
+konami.net
+konamionline.com
+konamiopen.jp
+konami.org
+konamisportsclub.jp
+konamistyle.jp
 kopfhorergunstigshop.com
 koreanpornmovie.com
 korewaeroi.com
@@ -20200,6 +20218,8 @@ researchkit.hk
 researchkit.net
 researchkit.org
 researchkit.tv
+resellablue.com
+resella.jp
 resonabank.co.jp
 resoubanana.buzz
 resoubang.buzz
@@ -21084,7 +21104,6 @@ shymysex.com
 shywifeswap.com
 siam.org
 sibreal.org
-sider.ai
 siege-amazon.com
 sifangclub.com
 sigcomm.org
@@ -25411,6 +25430,7 @@ ysx-mm.com
 yuanming.net
 yuenuge113.xyz
 yuenuge18.cc
+yugioh-card.com
 yuming.qxbbs.org
 yunlaopo.cc
 yunlaopo.com
@@ -25494,7 +25514,6 @@ zhaimankan.com
 zhainanjidid.top
 zhainanjidi.xyz
 zhangboz1.xyz
-zhangzhehan.net
 zhimeishe888.com
 zhtv01.com
 zhuzhushipin-app.com
@@ -25665,6 +25684,7 @@ intel
 intuit
 java
 kindle
+konami
 microsoft
 mini
 mit
