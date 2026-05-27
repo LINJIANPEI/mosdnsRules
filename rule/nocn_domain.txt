@@ -2446,6 +2446,7 @@ mosavi.io
 motherless.com
 movements.org
 moviefap.com
+mozilla.ai
 mpettis.com
 mpfinance.com
 mpinews.com
@@ -17199,7 +17200,6 @@ moxing.news
 mox.moe
 moystoys.com
 mozgcp.net
-mozilla.ai
 mozilla.com
 mozilla.community
 mozillafoundation.org
