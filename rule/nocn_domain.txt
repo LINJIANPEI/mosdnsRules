@@ -10015,6 +10015,7 @@ disneytickets.co.uk
 disneyturkiye.com.tr
 disneytvajobs.com
 disneyworld-go.com
+disq.us
 disquscdn.com
 disqusservice.com
 divas.com.uy
@@ -24549,14 +24550,18 @@ xgtdr.buzz
 xhamster18.com
 xhamster18.desi
 xhamster19.com
+xhamster2.com
 xhamster3.com
 xhamster.desi
 xhamsterlive.com
 xhamster.xxx
 xhcdn.com
+xhnews.live
 xhot.pro
+xhpingcdn.com
 xhpjc6-cdn-settings.appsflyersdk.com
 xh-porn.com
+xhreal5.com
 xhub.tv
 xh.video
 xiangrikui-app.com
@@ -26033,6 +26038,7 @@ full:media-rockstargames-com.akamaized.net
 full:medone-education.thieme.com
 full:misa-prod.s3.ap-northeast-1.amazonaws.com
 full:mobilelive-hamivideo.cdn.hinet.net
+full:mozilla-ohttp.fastly-edge.com
 full:mscrl.microsoft.com
 full:msh.amazon.co.uk
 full:mtalk-dev.google.com
