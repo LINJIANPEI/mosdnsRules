@@ -112859,6 +112859,7 @@ bgwxc.com
 biancheng.net
 bibaodao.com
 blurdev.com
+btghotels.com
 building.fun
 cabbagebox.com
 caiyun.com
@@ -112936,6 +112937,7 @@ ebchinaintl.com
 ecjobhome.com
 ecloud-gdu.com
 edgekey88.net
+edgescloud.cloud
 edu4399.com
 engkoo.com
 enterdesk.com
@@ -113004,6 +113006,7 @@ gvt1-cn.com
 gvt2-cn.com
 gxb.io
 gzwanju.com
+hacg.site
 hackinn.com
 hacpai.com
 haote.com
@@ -113045,6 +113048,7 @@ jiasuhui.com
 jiathis.com
 jikecdn.com
 jinglingbiaozhu.com
+jinjiangonline.net
 jinse.com
 jiqizhixin.com
 jpmorganchina.com
@@ -113093,6 +113097,7 @@ meloong.com
 mfcteda.com
 miaobolive.com
 mijisou.com
+mingque.com
 moegirl.org
 mojidict.com
 moleecel.com
@@ -113112,11 +113117,13 @@ o365cn.com
 obriccloud.com
 obricclouddw.com
 oemssl.cn.cdn.cloudflare.net
+oemxitong.com
 onlinesjtu.com
 openlearning.com
 osbdf.com
 ourdvsss.com
 ourl.co
+peer.as
 piaoliang.com
 platform.dell.com
 proximabeta.com
@@ -113130,6 +113137,7 @@ qqshuoshuo.com
 qualcomm.cn.cdn.cloudflare.net
 quehu.com
 quyaoya.com
+rauqa.net
 razerapi.com
 razerzone.com
 rmbgame.net
@@ -113167,6 +113175,7 @@ st.dl.pinyuncloud.com
 steam302.xyz
 sunrtb.com
 suufun.com
+syrds.pro
 szzfgjj.com
 t00ls.cc
 t00ls.net
@@ -113204,6 +113213,7 @@ vamaker.com
 vanclimg.com
 veryhuo.com
 viayoo.com
+vidhash.net
 vrzwk.net
 waifushangcheng.com
 wanplus.com
@@ -113257,6 +113267,7 @@ xn--fiq64b
 xn--fiqz9s
 xn--fjq720a
 xn--g2xx48c
+xn--h5qy75o.vip
 xn--hxt814e
 xn--imr513n
 xn--kput3i
