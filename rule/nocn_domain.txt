@@ -18220,6 +18220,7 @@ notion.new
 notion.site
 notion.so
 notion-static.com
+notion-status.com
 notionusercontent.com
 noveltrove.com
 novids.com
@@ -25979,7 +25980,6 @@ nextapple.com
 nexus
 nico
 nike
-notion-status.com
 office
 oracle
 overapple.com
