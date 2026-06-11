@@ -112535,6 +112535,7 @@ acadn.com
 afdian.net
 agora.io
 agoralab.co
+ahcjw.com
 akadns88.net
 akadns99.net
 akamai.com
@@ -112716,6 +112717,7 @@ guzhangting.com
 gvt1-cn.com
 gvt2-cn.com
 gxb.io
+gxxmt.com
 gzwanju.com
 hackinn.com
 hacpai.com
@@ -112741,6 +112743,7 @@ ifanrx.com
 instreet.com
 in.th
 ipshu.com
+ishijue.com
 istoreos.com
 it165.net
 it610.com
@@ -112772,6 +112775,7 @@ kuaihou.com
 kugouipv6.com
 kurogames.net
 lancdn.com
+landian.news
 landiannews.com
 landian.vip
 landian.xyz
@@ -112821,8 +112825,10 @@ muzhiwan.com
 mwcdns.com
 myshow360.net
 netzz.net
+nfpeople.com
 niohome.com
 nnbooster.com
+npsv6.com
 nzbdw.com
 nzwgs.com
 o365cn.com
@@ -112913,6 +112919,7 @@ ucgslb.info
 ucloud365.com
 ucloudoss.com
 ucloudufile.com
+ucppt.com
 unaming.net
 uslk.net
 u.tools
@@ -112920,6 +112927,7 @@ uwn.com
 v5875.com
 vamaker.com
 vanclimg.com
+vcgapi.com
 veryhuo.com
 viayoo.com
 vrzwk.net
