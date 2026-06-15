@@ -112380,7 +112380,6 @@ gamepp.com
 gangwan.com
 globalsign.com
 globrand.com
-gmw.com
 gmz88.com
 gneec7.com
 golinkapi.com
@@ -112485,7 +112484,7 @@ maoyuncloud.com
 mechina.org
 media.paperclipclub.net
 meika360.com
-meishij.net
+meishitx.com
 meloong.com
 mfcteda.com
 mfuns.net
@@ -112644,7 +112643,6 @@ xiazaiba.com
 xingtan001.com
 xinlishumeng.com
 xinmeng.info
-xinshipu.com
 xitong8.com
 xiyouyingyu.com
 xn--1qqw23a
@@ -112709,8 +112707,11 @@ alibaba
 alipay
 baidu
 citic
+gmw.com
 icbc
+meishij.net
 sohu
 taobao
 tmall
 unicom
+xinshipu.com
