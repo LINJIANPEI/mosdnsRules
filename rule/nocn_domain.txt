@@ -3168,6 +3168,7 @@ sinoants.com
 sinoca.com
 sinocast.com
 sinoinsider.com
+sinyalee.com
 sipml5.org
 sis001.com
 site.new
@@ -5868,6 +5869,7 @@ appbridge.io
 appbridge.it
 appcenter.ms
 appcloud.com
+appconsent.io
 appdomain.cloud
 app-dynamics.com
 appdynamics.com
@@ -6673,6 +6675,7 @@ awwcn.buzz
 awwcn.xyz
 awxcdn.com
 axbdoll.com.tw
+axept.io
 ayabank.com
 ayshdade.info
 ayshdee.xyz
@@ -8628,6 +8631,7 @@ cdmatech.com
 cdn77.com
 cdn77.org
 cdnblackmyth.club
+cdn-cookieyes.com
 cdnjs.com
 cdnlab.live
 cdnmail.ru
@@ -9173,6 +9177,7 @@ connectionslearning.com
 conquerwithcharacter.com
 conscrypt.com
 conscrypt.org
+consentmanager.net
 consentpro.com
 constructware.com
 consul.io
@@ -9182,9 +9187,11 @@ contechacademy.com
 contentful.com
 contest.com
 convrgencegame.com
+cookiebot.com
 cookiechoices.org
 cookielaw.org
 cookiepro.com
+cookieyes.com
 cool3c.com
 cool-comics.com
 coolinet.net
@@ -21489,7 +21496,6 @@ singtaobooks.com
 singtaola.com
 singtaonewscorp.com
 singtaoopo.com
-sinyalee.com
 siport.com
 sipriyearbook.org
 sirenxxxstudios.com
@@ -22207,7 +22213,6 @@ superadultgames.com
 supercell.com
 supercellcreators.com
 supercellgames.com
-supercell.helpshift.com
 supercellid.com
 supercell.net
 supercellstore.com
@@ -22515,6 +22520,7 @@ terapeak.info
 teraperk.com
 terk.nl
 termius.com
+termly.io
 termux.com
 termux.dev
 termux.org
@@ -23010,6 +23016,7 @@ truedwg.com
 truefi.io
 truenas.com
 trunest.com
+trustarc.com
 trustcor.ca
 trustcor.com
 trustdoc.ch
@@ -26639,6 +26646,8 @@ full:steamusercontent-a.akamaihd.net
 full:steamuserimages-a.akamaihd.net
 full:steamvideo-a.akamaihd.net
 full:straitsx-826709081262441084-b790f87a2ae6fd417434295.freshchat.com
+full:supercell.helpshift.com
+full:supercell.zendesk.com
 full:t.ssp.hinet.net
 full:t21.nikkei.co.jp
 full:t21ipau.nikkei.co.jp
