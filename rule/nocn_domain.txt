@@ -870,6 +870,7 @@ crazypool.org
 crazyshit.com
 crbug.com
 crchina.org
+creader.com
 creaders.net
 creativelab5.com
 cristyli.com
@@ -1423,6 +1424,7 @@ generated.photos
 genius.com
 geph.io
 get.app
+get.dappcdn.com
 get.dev
 get.how
 get.page
@@ -12575,7 +12577,6 @@ getbumptop.com
 getbuzzsaw.com
 getchu.com
 getcomposer.org
-get.dappcdn.com
 getdirect.tv
 getdrebeatssale.com
 getdropbox.com
