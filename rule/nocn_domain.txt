@@ -7591,6 +7591,7 @@ blackshemalevideo.com
 blacksonblondes.com
 blackstonespoliceservice.com
 blacktowhite.net
+blanc.ru
 blaoshi.cc
 blast.io
 blazor.net
@@ -8163,6 +8164,7 @@ bossae.com
 bossagency.co.uk
 boswp.com
 botframework.com
+botim.me
 botmechanic.io
 botorch.org
 botstop.com
@@ -13650,6 +13652,9 @@ horizontalglue.com
 horizontal-llc.com
 horizontal-systems.com
 horizontalsystems.com
+hornetapp.com
+hornet.com
+hornetx.com
 hornyasianmilfs.com
 hornybitches.org
 hornybutt.com
@@ -16003,6 +16008,7 @@ listenbrainz.org
 listinganalytics.net
 list.ru
 litbus-anime.com
+litecoin.org
 literatumonline.com
 literotica.com
 littleasians.com
@@ -17982,7 +17988,9 @@ netflixdnstest9.com
 netflixinvestor.com
 netflixtechblog.com
 netlify.com
+netlifydns.com
 netlifystatus.com
+netlifyusercontent.com
 netlock.hu
 netname.com.br
 netpornsex.com
@@ -18440,6 +18448,7 @@ ntdtv.ru
 ntdtv.se
 ntdvideo.tw
 ntdvn.com
+ntl.fyi
 ntnews.com.au
 ntp0.ring.gr.jp
 ntp1.jst.mfeed.ad.jp
@@ -22542,6 +22551,7 @@ technogym.ru
 technogym.su
 technologyandsociety.org
 techradar.com
+techspot.com
 techstreet.com
 techtimes.com
 techtudo.com
@@ -26250,6 +26260,7 @@ full:3dns.adobe.com
 full:a.ppy.sh
 full:a4e8s8k3.map2.ssl.hwcdn.net
 full:abematv.akamaized.net
+full:acd89244c803f7181.awsglobalaccelerator.com
 full:activate-sea.adobe.com
 full:activate-sjc0.adobe.com
 full:activate.adobe.com
@@ -26263,6 +26274,7 @@ full:adobe-dns-3.adobe.com
 full:adobe-dns-4.adobe.com
 full:adobe-dns.adobe.com
 full:adobeereg.com
+full:afa7f374f51cc8991.awsglobalaccelerator.com
 full:ai.google.dev
 full:alkalicore-pa.clients6.google.com
 full:alkalimakersuite-pa.clients6.google.com
