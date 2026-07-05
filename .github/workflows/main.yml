@@ -54,17 +54,31 @@ jobs:
         run: |
           zip -r rule.zip rule/
 
-      - name: 创建 Release（每次生成新的）
+      - name: 生成 Release 信息
+        id: release_info
+        if: steps.check_update.outputs.has_update == 'true'
+        run: |
+          TAG="rule-$(date +'%Y%m%d-%H%M%S')"
+          NAME="规则更新 $(date +'%Y-%m-%d %H:%M:%S')"
+          BODY="自动更新的规则文件%0A%0A📅 更新时间：$(date +'%Y-%m-%d %H:%M:%S')%0A🔗 提交：${{ github.sha }}"
+          
+          echo "tag=$TAG" >> $GITHUB_OUTPUT
+          echo "name=$NAME" >> $GITHUB_OUTPUT
+          # body 用环境变量传递，避免换行问题
+          echo "BODY<<EOF" >> $GITHUB_OUTPUT
+          echo "自动更新的规则文件" >> $GITHUB_OUTPUT
+          echo "" >> $GITHUB_OUTPUT
+          echo "📅 更新时间：$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
+          echo "🔗 提交：${{ github.sha }}" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: 创建 Release
         if: steps.check_update.outputs.has_update == 'true'
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: rule-$(date +'%Y%m%d-%H%M%S')
-          name: "规则更新 $(date +'%Y-%m-%d %H:%M:%S')"
-          body: |
-            自动更新的规则文件
-            
-            📅 更新时间：$(date +'%Y-%m-%d %H:%M:%S')
-            🔗 提交：${{ github.sha }}
+          tag_name: ${{ steps.release_info.outputs.tag }}
+          name: ${{ steps.release_info.outputs.name }}
+          body: ${{ steps.release_info.outputs.BODY }}
           files: |
             rule.zip
           draft: false
