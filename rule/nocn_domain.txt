@@ -6241,6 +6241,7 @@ applestore.qa
 applestore.sg
 apple-store.wang
 applestore.wang
+apple-studies.com
 applesurveys.com
 appleswift.com
 appletaiwan.com
@@ -6441,6 +6442,7 @@ atlassian.com
 atlassian-dev.net
 atlassian.net
 atl-paas.net
+atmeta.com
 atokara.jp
 atom.io
 atomyze.ru
@@ -6800,6 +6802,7 @@ azatutyun.am
 azbukainterneta.ru
 aziani.com
 aznude.com
+azure-api.net
 azure.com
 azurecomcdn.net
 azurecomm.net
@@ -6836,6 +6839,7 @@ azureserviceprofiler.com
 azuresmartspaces.net
 azure-sphere.com
 azurestackvalidation.com
+azurestaticapps.net
 azure-test.net
 b2c-digest.ru
 b37mrtl.ru
@@ -26492,7 +26496,6 @@ full:img-prod-cms-rt-microsoft-com.akamaized.net
 full:img-s-msn-com.akamaized.net
 full:impala-media-production.s3.amazonaws.com
 full:imperial.insendi.com
-full:ingest.apple-studies.com
 full:lastfm.freetls.fastly.net
 full:lazer.ppy.sh
 full:lgcscc-hamivideo2.cdn.hinet.net
