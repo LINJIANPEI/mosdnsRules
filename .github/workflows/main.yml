@@ -29,11 +29,45 @@ jobs:
       - name: 执行下载和合并去重脚本
         run: node init.js
 
-      - name: 提交并推送更新后的规则文件
+      - name: 检查是否有更新
+        id: check_update
+        run: |
+          git add rule/
+          if git diff --staged --quiet; then
+            echo "has_update=false" >> $GITHUB_OUTPUT
+            echo "⚠️ 规则文件无变化，跳过后续步骤"
+          else
+            echo "has_update=true" >> $GITHUB_OUTPUT
+            echo "✅ 检测到规则文件更新"
+          fi
+
+      - name: 提交并推送更新
+        if: steps.check_update.outputs.has_update == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add rule/
-          git diff --staged --quiet || git commit -m "chore: 自动更新规则文件 $(date +'%Y-%m-%d %H:%M:%S')"
-          # 使用 GITHUB_TOKEN 进行身份验证
+          git commit -m "chore: 自动更新规则文件 $(date +'%Y-%m-%d %H:%M:%S')"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+
+      - name: 打包 rule 文件夹
+        if: steps.check_update.outputs.has_update == 'true'
+        run: |
+          zip -r rule.zip rule/
+
+      - name: 创建 Release（每次生成新的）
+        if: steps.check_update.outputs.has_update == 'true'
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: rule-$(date +'%Y%m%d-%H%M%S')
+          name: "规则更新 $(date +'%Y-%m-%d %H:%M:%S')"
+          body: |
+            自动更新的规则文件
+            
+            📅 更新时间：$(date +'%Y-%m-%d %H:%M:%S')
+            🔗 提交：${{ github.sha }}
+          files: |
+            rule.zip
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
