@@ -11942,6 +11942,8 @@ flowfront.com
 flowfront.net
 flow.org
 flowtype.org
+flowwow.com
+flowwow-images.com
 fluffychat.im
 fluidfxapp.com
 fluidpreview.com
@@ -12366,6 +12368,8 @@ fundsupermart.com
 funimation.com
 funnyfacebook.org
 funnyordie.com
+funpay.com
+funpay.ru
 funshemale.com
 fuq.com
 fuqqt.com
@@ -21380,6 +21384,7 @@ sferum-dev.ru
 sferum.ru
 sfmcompile.club
 sforce.com
+sfunpay.com
 sfx.ms
 sg120.me
 sg1lib.org
@@ -22893,6 +22898,7 @@ tiktokw.us
 tildaapi.com
 tilda.cc
 tildacdn.com
+tildacdn.net
 tilda.ru
 tilda.ws
 timefxapp.com
@@ -26400,6 +26406,7 @@ full:default.exp-tas.com
 full:dell.my.site.com
 full:deribit.cdn.prismic.io
 full:deutschewelle.h-cdn.com
+full:developer.microsoft.com
 full:developers.facebook.com
 full:dfp6rglgjqszk.cloudfront.net
 full:dgeft87wbj63p.cloudfront.net
@@ -26535,6 +26542,7 @@ full:notary-submissions-prod.s3.us-west-2.amazonaws.com
 full:notebooklm-pa.googleapis.com
 full:notebooklm.googleapis.com
 full:notify.ppy.sh
+full:np-edge.itunes.apple.com
 full:ntdfreemobile-tgc.cdn.hinet.net
 full:ntdfreepc-tgc.cdn.hinet.net
 full:ntdfreetv-tgc.cdn.hinet.net
