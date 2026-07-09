@@ -112170,6 +112170,7 @@ touqikan.com
 trustasia.net
 tuicool.com
 tuiwen.net
+twyxh.com
 u-cdn.net
 u.tools
 ubnt.com
@@ -112296,6 +112297,7 @@ zhanbuba.com
 zhiexa.com
 zhipucn.com
 zhuanyewanjia.com
+zx.com
 zysn.net
 full:account-cn.alibabacloud.com
 full:activate.activation-v2.kaspersky.com
