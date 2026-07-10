@@ -26406,7 +26406,6 @@ full:default.exp-tas.com
 full:dell.my.site.com
 full:deribit.cdn.prismic.io
 full:deutschewelle.h-cdn.com
-full:developer.microsoft.com
 full:developers.facebook.com
 full:dfp6rglgjqszk.cloudfront.net
 full:dgeft87wbj63p.cloudfront.net
@@ -26542,7 +26541,6 @@ full:notary-submissions-prod.s3.us-west-2.amazonaws.com
 full:notebooklm-pa.googleapis.com
 full:notebooklm.googleapis.com
 full:notify.ppy.sh
-full:np-edge.itunes.apple.com
 full:ntdfreemobile-tgc.cdn.hinet.net
 full:ntdfreepc-tgc.cdn.hinet.net
 full:ntdfreetv-tgc.cdn.hinet.net
@@ -26591,7 +26589,6 @@ full:packages.microsoft.com
 full:paper-attachments.s3.amazonaws.com
 full:pchomeonline.com.tw
 full:pki.google.com
-full:play-edge.itunes.apple.com
 full:poshtestgallery.cloudapp.net
 full:ppl-ai-file-upload.s3.amazonaws.com
 full:pplx-res.cloudinary.com
