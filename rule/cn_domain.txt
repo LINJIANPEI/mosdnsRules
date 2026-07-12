@@ -111664,6 +111664,7 @@ zzzzzz.me
 999d.com
 9ht.com
 acadn.com
+adacpp.com
 admincdn.com
 afdian.net
 agora.io
@@ -111745,6 +111746,7 @@ cn.eset.com
 cn.mm.bing.net
 cn.pool.ntp.org
 cnsimg.net
+colorfulclouds.com
 cone-x.com
 cozeapp.net
 cozebuild.com
@@ -111781,6 +111783,7 @@ docin.com
 dockone.io
 duapps.com
 duifene.com
+duoyiwangluo.com
 dwion.com
 dxmbaoxian.com
 dxpmedia.com
@@ -111850,6 +111853,7 @@ golinkapi.com
 golinkcn.com
 goproxy.io
 gpsonextra.net
+gtgjtrip.com
 guangyacdn.com
 guangyapan.com
 gucheng.com
@@ -111919,6 +111923,7 @@ kameng98.com
 keboyunxiao.com
 kiyuu.club
 kkzj.com
+kling-ai.com
 kouclo.com
 kuaihou.com
 kugouipv6.com
@@ -111937,6 +111942,7 @@ lenovo.com
 lenovo.com.cdn.cloudflare.net
 lenovo.net
 leturich.org
+leyuansu.com
 liblib.tv
 lieyunwang.com
 lightmake.site
@@ -112038,6 +112044,7 @@ sf-saas.com
 shang360.com
 shareintelli.com
 sharejs.com
+shedunews.net
 shelterdome.net
 sheui.com
 shhxzq.com
@@ -112140,6 +112147,7 @@ xfdown.com
 xiaoka.tv
 xiaoluyouxuan.com
 xiaoluzhidian.com
+xiaomengai.com
 xiazaiba.com
 xingtan001.com
 xinlishumeng.com
@@ -112188,6 +112196,7 @@ yfcloud.com
 yfdts.net
 yfp2p.net
 yfscdn.net
+ygduoyi.com
 yh31.com
 yizhibo.com
 yjbys.com
@@ -112206,6 +112215,7 @@ zhanbuba.com
 zhiexa.com
 zhipucn.com
 zhuanyewanjia.com
+zmtqsh.com
 zx.com
 zysn.net
 alibaba
