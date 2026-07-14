@@ -26207,6 +26207,7 @@ bridgestone
 canon
 cdn-apple.com
 cern
+chatgpt.site
 chrome
 cisco
 dclk
@@ -26220,7 +26221,6 @@ gle
 gmail
 gmo
 godaddy
-goo
 goog
 google
 gucci
@@ -26234,11 +26234,10 @@ ids-apple.com
 imac-apple.com
 imacapple.com
 imdb
-intel
 intuit
 java
+kick.com
 kindle
-konami
 microsoft
 mini
 mit
@@ -26609,11 +26608,7 @@ full:pki.google.com
 full:poshtestgallery.cloudapp.net
 full:ppl-ai-file-upload.s3.amazonaws.com
 full:pplx-res.cloudinary.com
-full:practivate.adobe
 full:practivate.adobe.com
-full:practivate.adobe.ipp
-full:practivate.adobe.newoa
-full:practivate.adobe.ntp
 full:prd-priconne-redive.akamaized.net
 full:preprod-publicca.googleapis.com
 full:prodforza.blob.core.windows.net
