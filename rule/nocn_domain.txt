@@ -6826,6 +6826,7 @@ azuredns-prd.info
 azuredns-prd.org
 azureedge.net
 azureedge-test.net
+azureedge.us
 azurefd.net
 azureiotcentral.com
 azureiotsolutions.com
@@ -8092,6 +8093,7 @@ bnappweb.black
 bnbchain.org
 bnef.com
 bntrace.com
+bnxz.net
 boboporn.com
 boboporn.net
 bobovip.cc
@@ -8465,6 +8467,7 @@ byjav.me
 byjhd.com
 bymj.io
 byspotify.com
+bystys.tech
 bytedapm.com
 byteoversea.com
 bytick.com
@@ -9325,6 +9328,7 @@ coova.com
 coova.net
 coova.org
 copilot.com
+copilot-stg.com
 copro.pw
 copy2000.online
 copy20.com
@@ -15978,9 +15982,16 @@ lighter.exchange
 lighter.xyz
 lightxxxtube.com
 lihksnap.com
+likeeapp.ru
+likee.com
+likee.video
+likeevideo.com
+likeevideo.ru
 likeseiyu.com
 liketruyen.net
 liketwice.com
+like.video
+like-video.com
 likuoo.video
 lilhumpers.com
 liliav.com
@@ -16774,6 +16785,7 @@ mgo.com
 mgo-images.com
 mhcbr.ru
 mhcb.ru
+mhgui.com
 mhhanman.xyz
 mhqwe.xyz
 mhradio.org
@@ -18980,6 +18992,7 @@ over18arcade.com
 overleaf.com
 overthumbs.com
 ovid.com
+owxd.xyz
 oxfordaasc.com
 oxfordartonline.com
 oxfordbibliographies.com
@@ -22160,6 +22173,7 @@ starfox.com
 stargazer-games.com
 stark-verlag.ch
 star-latam.com
+starlink.com
 starott.com
 starplus.com
 starship-ent.com
@@ -23545,6 +23559,7 @@ uverse.com
 uweb.ru
 uwpcommunitytoolkit.com
 uxthemes.com
+uxzw.club
 v2ph.com
 v2ray.cool
 v7hds.com
@@ -25981,6 +25996,7 @@ yskg-ber.buzz
 ysporn.com
 ysx-mm.com
 yuanming.net
+yucf.top
 yuenuge113.xyz
 yuenuge18.cc
 yugioh-card.com
@@ -26204,9 +26220,7 @@ bbc
 bing
 bloomberg
 bmw
-bnxz.net
 bridgestone
-bystys.tech
 canon
 cdn-apple.com
 cern
@@ -26239,13 +26253,6 @@ imdb
 intuit
 java
 kindle
-like-video.com
-like.video
-likee.com
-likee.video
-likeeapp.ru
-likeevideo.com
-likeevideo.ru
 microsoft
 mini
 mit
@@ -26258,7 +26265,6 @@ nike
 office
 oracle
 overapple.com
-owxd.xyz
 panasonic
 playstation
 porn
@@ -26269,7 +26275,6 @@ skype
 softbank
 sony
 target
-uxzw.club
 volvo
 walmart
 weather
@@ -26289,7 +26294,6 @@ yahoo
 yamaxun
 yandex
 youtube
-yucf.top
 zappos
 full:1password.drift.click
 full:3dns-1.adobe.com
@@ -26818,7 +26822,6 @@ full:t.ssp.hinet.net
 full:t21.nikkei.co.jp
 full:t21ipau.nikkei.co.jp
 full:teamviewer.com.cdn.cloudflare.net
-full:tesla-cdn.thron.com
 full:thumbnail-hamivideo.cdn.hinet.net
 full:time-a-b.nist.gov
 full:time-a-g.nist.gov
