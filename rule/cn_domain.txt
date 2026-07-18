@@ -111652,6 +111652,7 @@ hongsanban.com
 houdao.com
 houyuantuan.com
 hprtupgrade.com
+hrsecn.com
 huangyuhui.net
 hugecore.net
 hujia.org
@@ -111756,6 +111757,7 @@ mryys.com
 muomou.com
 muzhiwan.com
 mwcdns.com
+mycloudnas.com
 myshow360.net
 mysqil.com
 myssl-uri.com
@@ -112001,7 +112003,6 @@ alipay
 anquan
 baidu
 citic
-hrsecn.com
 icbc
 shouji
 sina
@@ -112012,4 +112013,3 @@ unicom
 weibo
 xihuan
 yun
-full:api.blipsandchitz.me
