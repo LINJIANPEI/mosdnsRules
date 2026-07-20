@@ -13,6 +13,7 @@
 173ng.com
 18board.com
 18comic.org
+18comic.vip
 18mh.net
 1984bbs.com
 1991way.com
@@ -4459,7 +4460,6 @@ zzcloud.me
 18comic-god.cc
 18comic-god.club
 18comic-god.xyz
-18comic.vip
 18commic.com
 18doujin.com
 18doujinshi.xyz
