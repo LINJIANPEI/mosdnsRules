@@ -783,6 +783,7 @@ civilmedia.tw
 civitai.com
 cixiaoya.club
 ck101.com
+clashyun.com
 classicalguitarblog.net
 claude.ai
 claude.com
@@ -3436,6 +3437,7 @@ synapse.org
 syncback.com
 synergyse.com
 syosetu.com
+sysub.com
 t-g.com
 t.co
 t.me
@@ -4314,6 +4316,7 @@ zdnet.com.tw
 zello.com
 zenmate.com
 zenmate.com.ru
+zenmux.ai
 zerohedge.com
 zeronet.io
 zh-hans.cfsh99.com
@@ -9052,7 +9055,6 @@ clashmini.com
 clashofclans.com
 clashroyaleapp.com
 clashroyale.com
-clashyun.com
 clasporno.org
 classicnike.com
 classymomsex.com
@@ -22490,7 +22492,6 @@ synology.me
 synologyupdate.com
 sysinternals.com
 system76.com
-sysub.com
 syzbj36.xyz
 szabadeuropa.hu
 szcheapmonsterheadphones.com
@@ -26870,6 +26871,7 @@ full:time5.facebook.com
 full:tlmr-hamivideo2.cdn.hinet.net
 full:tmdb-image-prod.b-cdn.net
 full:tmdb-web-image-prod.b-cdn.net
+full:trojan-gfw.github.io
 full:tv.applemusic.com
 full:tvcastlive-hamivideo.cdn.hinet.net
 full:ubisoft-orbit-savegames.s3.amazonaws.com
@@ -27038,6 +27040,7 @@ full:wwis-dubc1-vip98.adobe.com
 full:wwis-dubc1-vip99.adobe.com
 full:www-cdn.icloud.com.akadns.net
 full:www.quora.com.cdn.cloudflare.net
+full:xtls.github.io
 full:yangzhi.app
 full:yt3.googleusercontent.com
 full:zeenews-fonts.s3.amazonaws.com
