@@ -3695,6 +3695,7 @@ trtworld.com
 truebuddha-md.org
 trustwallet.com
 truthsocial.com
+tryai.dev
 tryheart.jp
 tsdr.uspto.gov
 tt1069.com
@@ -12766,6 +12767,7 @@ githubhackathon.com
 githubnext.com
 githubpreview.dev
 githubstatus.com
+githubsupport.com
 githubuniverse.com
 gitlab.com
 gitlab.io
