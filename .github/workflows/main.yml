@@ -101,7 +101,7 @@ jobs:
                       - action: add
                         input: cn
 
-                  - name: gfw
+                  - name: nocn
                     steps:
                       - action: add
                         input: nocn
