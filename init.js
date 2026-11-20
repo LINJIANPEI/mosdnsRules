@@ -76,6 +76,11 @@ async function main() {
       "gfw.txt",
       "./nocn_domain",
     );
+    await downloadWithAxios(
+      "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/geolocation-!cn.list",
+      "nocn_domain_list.txt",
+      "./nocn_domain",
+    );
 
     // 合并去重（必须加上 await，等待合并完成）
     await mergeAndDedupeTxtFiles("./file/cn_domain", "./rule/cn_domain.txt");
