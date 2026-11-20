@@ -14,89 +14,171 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 拉取代码
       - name: 拉取代码
         uses: actions/checkout@v4
 
+      # 安装 Node.js
       - name: 安装 Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "20"
+          cache: npm
 
-      - name: 安装 Go（用于 geomixer）
+      # 安装 Go
+      - name: 安装 Go
         uses: actions/setup-go@v5
         with:
-          go-version: "1.22" # 选择一个稳定的 Go 版本
+          go-version: "1.26"
 
+      # 安装 geomixer
       - name: 安装 geomixer
-        run: go install github.com/KazZzeL/geomixer@latest
+        run: |
+          go install github.com/KazZzeL/geomixer@latest
+          echo "$(go env GOPATH)/bin" >> $GITHUB_PATH
 
+      # 安装 Node 依赖
       - name: 安装 Node 依赖
         run: npm ci
 
-      - name: 执行下载和合并去重脚本（生成 txt）
+      # 下载、合并、去重
+      - name: 执行规则更新脚本
         run: node init.js
 
-      - name: 编译 geosite.dat
+      # 创建 geomixer 配置
+      - name: 创建 DAT 编译配置
         run: |
-          # 根据你的实际输出文件名和类别名调整
-          # 假设 init.js 生成了 rule/cn_domain.txt 和 rule/nocn_domain.txt
-          geomixer -input rule/cn_domain.txt   -output rule/geosite.dat -category cn
-          geomixer -input rule/nocn_domain.txt -output rule/geosite.dat -category geolocation-!cn
-          # 如果有 cdn_domain.txt，也可以追加一个类别
-          geomixer -input rule/cdn_domain.txt  -output rule/geosite.dat -category cdn
-          echo "geosite.dat 编译完成"
-          ls -lh rule/geosite.dat
+          cat > geomixer.yaml <<'EOF'
+          version: 1
 
+          geosite:
+            inputs:
+              - name: cn
+                kind: plain
+                path: ./rule/cn_domain.txt
+
+              - name: nocn
+                kind: plain
+                path: ./rule/nocn_domain.txt
+
+              - name: cdn
+                kind: plain
+                path: ./rule/cdn_domain.txt
+
+            outputs:
+              - name: geosite.dat
+                categories:
+                  - name: cn
+                    steps:
+                      - action: add
+                        input: cn
+
+                  - name: nocn
+                    steps:
+                      - action: add
+                        input: nocn
+
+                  - name: cdn
+                    steps:
+                      - action: add
+                        input: cdn
+
+          geoip:
+            inputs:
+              - name: cn
+                kind: plain
+                path: ./rule/cn_ip.txt
+
+              - name: nocn
+                kind: plain
+                path: ./rule/nocn_ip.txt
+
+            outputs:
+              - name: geoip.dat
+                categories:
+                  - name: cn
+                    steps:
+                      - action: add
+                        input: cn
+
+                  - name: gfw
+                    steps:
+                      - action: add
+                        input: nocn
+          EOF
+
+      # 编译 geosite.dat 和 geoip.dat
+      - name: 编译 DAT 文件
+        run: |
+          geomixer mix geomixer.yaml -o ./rule
+
+          echo "DAT 编译完成"
+          ls -lh rule/*.dat
+
+      # 检查更新
       - name: 检查是否有更新
         id: check_update
         run: |
           git add rule/
+
           if git diff --staged --quiet; then
             echo "has_update=false" >> $GITHUB_OUTPUT
-            echo "⚠️ 规则文件无变化，跳过后续步骤"
+            echo "规则文件无变化"
           else
             echo "has_update=true" >> $GITHUB_OUTPUT
-            echo "✅ 检测到规则文件更新"
+            echo "检测到规则文件更新"
           fi
 
+      # 提交并推送
       - name: 提交并推送更新
         if: steps.check_update.outputs.has_update == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git commit -m "chore: 自动更新规则文件 $(date +'%Y-%m-%d %H:%M:%S')"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
 
+          git commit -m "chore: 自动更新规则文件 $(date +'%Y-%m-%d %H:%M:%S')"
+
+          git push
+
+      # 打包
       - name: 打包 rule 文件夹
         if: steps.check_update.outputs.has_update == 'true'
         run: |
           zip -r rule.zip rule/
 
+      # 生成 Release 信息
       - name: 生成 Release 信息
         id: release_info
         if: steps.check_update.outputs.has_update == 'true'
         run: |
           TAG="rule-$(date +'%Y%m%d-%H%M%S')"
           NAME="规则更新 $(date +'%Y-%m-%d %H:%M:%S')"
+
           echo "tag=$TAG" >> $GITHUB_OUTPUT
           echo "name=$NAME" >> $GITHUB_OUTPUT
-          echo "BODY<<EOF" >> $GITHUB_OUTPUT
-          echo "自动更新的规则文件" >> $GITHUB_OUTPUT
-          echo "" >> $GITHUB_OUTPUT
-          echo "📅 更新时间：$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
-          echo "🔗 提交：${{ github.sha }}" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
 
+          {
+            echo "body<<EOF"
+            echo "自动更新的规则文件"
+            echo ""
+            echo "更新时间：$(date +'%Y-%m-%d %H:%M:%S')"
+            echo "提交：${GITHUB_SHA}"
+            echo ""
+            echo "包含 geosite.dat、geoip.dat 及 TXT 规则"
+            echo "EOF"
+          } >> $GITHUB_OUTPUT
+
+      # 创建 Release
       - name: 创建 Release
         if: steps.check_update.outputs.has_update == 'true'
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.release_info.outputs.tag }}
           name: ${{ steps.release_info.outputs.name }}
-          body: ${{ steps.release_info.outputs.BODY }}
+          body: ${{ steps.release_info.outputs.body }}
           files: |
             rule.zip
-          draft: false
-          prerelease: false
+            rule/geosite.dat
+            rule/geoip.dat
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
