@@ -5,7 +5,6 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
-# 关键：提升默认 GITHUB_TOKEN 的权限
 permissions:
   contents: write
 
@@ -23,11 +22,30 @@ jobs:
         with:
           node-version: "20"
 
-      - name: 安装依赖
+      - name: 安装 Go（用于 geomixer）
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.22" # 选择一个稳定的 Go 版本
+
+      - name: 安装 geomixer
+        run: go install github.com/KazZzeL/geomixer@latest
+
+      - name: 安装 Node 依赖
         run: npm ci
 
-      - name: 执行下载和合并去重脚本
+      - name: 执行下载和合并去重脚本（生成 txt）
         run: node init.js
+
+      - name: 编译 geosite.dat
+        run: |
+          # 根据你的实际输出文件名和类别名调整
+          # 假设 init.js 生成了 rule/cn_domain.txt 和 rule/nocn_domain.txt
+          geomixer -input rule/cn_domain.txt   -output rule/geosite.dat -category cn
+          geomixer -input rule/nocn_domain.txt -output rule/geosite.dat -category geolocation-!cn
+          # 如果有 cdn_domain.txt，也可以追加一个类别
+          geomixer -input rule/cdn_domain.txt  -output rule/geosite.dat -category cdn
+          echo "geosite.dat 编译完成"
+          ls -lh rule/geosite.dat
 
       - name: 检查是否有更新
         id: check_update
@@ -60,11 +78,8 @@ jobs:
         run: |
           TAG="rule-$(date +'%Y%m%d-%H%M%S')"
           NAME="规则更新 $(date +'%Y-%m-%d %H:%M:%S')"
-          BODY="自动更新的规则文件%0A%0A📅 更新时间：$(date +'%Y-%m-%d %H:%M:%S')%0A🔗 提交：${{ github.sha }}"
-          
           echo "tag=$TAG" >> $GITHUB_OUTPUT
           echo "name=$NAME" >> $GITHUB_OUTPUT
-          # body 用环境变量传递，避免换行问题
           echo "BODY<<EOF" >> $GITHUB_OUTPUT
           echo "自动更新的规则文件" >> $GITHUB_OUTPUT
           echo "" >> $GITHUB_OUTPUT
