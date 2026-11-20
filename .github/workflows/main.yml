@@ -65,7 +65,7 @@ jobs:
                 kind: plain
                 path: ./rule/cdn_domain.txt
               
-                - name: private
+              - name: private
                 kind: plain
                 path: ./rule/private_domain.txt
 
