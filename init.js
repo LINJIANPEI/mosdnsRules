@@ -4,6 +4,18 @@ const { removeLinesFromFile } = require("./modules/remove");
 
 async function main() {
   try {
+    // 私有列表
+    await downloadWithAxios(
+      "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/private.list",
+      "private_domain_list.txt",
+      "./private_domain",
+    );
+    await downloadWithAxios(
+      "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geoip/private.list",
+      "private_ip_list.txt",
+      "./private_ip",
+    );
+
     // 国内列表
     await downloadWithAxios(
       "https://fastly.jsdelivr.net/gh/pmkol/easymosdns@rules/china_domain_list.txt",
@@ -74,6 +86,11 @@ async function main() {
       "./rule/nocn_domain.txt",
     );
     await mergeAndDedupeTxtFiles("./file/nocn_ip", "./rule/nocn_ip.txt");
+    await mergeAndDedupeTxtFiles(
+      "./file/private_domain",
+      "./rule/private_domain.txt",
+    );
+    await mergeAndDedupeTxtFiles("./file/private_ip", "./rule/private_ip.txt");
 
     // CDN去重
     await removeLinesFromFile("./rule/cdn_domain.txt", "./rule/cn_domain.txt");
