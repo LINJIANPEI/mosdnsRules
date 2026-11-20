@@ -47,6 +47,16 @@ async function main() {
       "google-cn.txt",
       "./cn_domain",
     );
+    await downloadWithAxios(
+      "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/cn.list",
+      "cn_domain_list.txt",
+      "./cn_domain",
+    );
+    await downloadWithAxios(
+      "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geoip/cn.list",
+      "cn_ip_list.txt",
+      "./cn_ip",
+    );
 
     // CDN列表
     await downloadWithAxios(
@@ -78,7 +88,7 @@ async function main() {
     );
     await downloadWithAxios(
       "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/geolocation-!cn.list",
-      "nocn_domain_list.txt",
+      "geolocation-!cn.txt",
       "./nocn_domain",
     );
 
